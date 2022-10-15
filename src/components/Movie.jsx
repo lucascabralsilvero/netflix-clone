@@ -3,6 +3,8 @@ import { FaHeart, FaRegHeart } from "react-icons/fa";
 import { UserAuth  } from './context/AuthContext';
 import {db} from "../firebase"
 import { arrayUnion, doc, updateDoc} from "firebase/firestore";
+import Swal from 'sweetalert2'
+
 
 const Movie = ({item}) => {
 
@@ -24,7 +26,10 @@ const Movie = ({item}) => {
           })
         })
       } else{
-        alert("Please log in to save a movie")
+        Swal.fire({ 
+          icon: 'error',
+        title: 'Algo salió mal',
+        text: 'Debes loguearte para guardar una película!'})
       }
     }
 

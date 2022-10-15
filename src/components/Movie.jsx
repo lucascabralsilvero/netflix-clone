@@ -28,8 +28,8 @@ const Movie = ({item}) => {
       } else{
         Swal.fire({ 
           icon: 'error',
-        title: 'Algo salió mal',
-        text: 'Debes loguearte para guardar una película!'})
+        title: 'Something went wrong',
+        text: 'Please, log in to save a movie!'})
       }
     }
 

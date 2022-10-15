@@ -1,11 +1,9 @@
 # Netflix Clone - Coderhouse
 
-![Nombre](Link imagen "Nombre")
+![Nombre](https://i.ibb.co/gRn4Sms/Screenshot-7.png "Netflix")
 
-Proyecto Final para el curso de ReactJS de la academia Coderhouse. 
-La aplicación permite seleccionar productos, navegar a sus detalles, agregarlos al carrito, poder acceder a él y simular la compra de los mismos.
-Al "realizar una compra", se solicita completar un formulario con datos básicos y luego se genera un id de orden para el usuario, dicha orden se almacena en 
-Firebase con los datos de los productos comprados. 
+Proyecto destinado a realizar un pequeño clon de la página principal de netflix, así como también su pantalla de Login y un sistema de favoritos, 
+cuya información es almacenada en la base de datos de Firebase.
 
 ## Tecnologías y librerías utilizadas
 
@@ -22,13 +20,14 @@ Firebase con los datos de los productos comprados.
 
 ## Screenshots
 
-![Nombre](Link imagen "Nombre")
+![Nombre](https://i.ibb.co/b5jfNWj/Screenshot-8.png
+ "Trendings")
 
-![Nombre](Link imagen "Nombre")
+![Nombre](https://i.ibb.co/mSH1qmD/Screenshot-9.png "Login")
 
-![Nombre](Link imagen "Nombre")
+![Nombre](https://i.ibb.co/km4d7L0/Screenshot-10.png "Favorites")
 
-![Nombre](Link imagen "Nombre")
+
 
 ### `npm install`
 

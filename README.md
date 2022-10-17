@@ -1,4 +1,4 @@
-# Netflix Clone - Coderhouse
+# Netflix Clone 
 
 ![Nombre](https://i.ibb.co/gRn4Sms/Screenshot-7.png "Netflix")
 
